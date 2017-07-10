@@ -1,0 +1,9 @@
+# At the time of making this, the most recent installer of Splunkforwarder was "splunkforwarder-6.6.2-4b804538c686-x64-release.msi".
+# The installer was placed in my "c:\" directory after downloading.
+# More optional flags can be found in official documentation: http://docs.splunk.com/Documentation/Forwarder/6.6.2/Forwarder/InstallaWindowsuniversalforwarderfromthecommandline
+
+
+# You would then replace the sections with *asterisks* to your set up.
+
+$programName = "splunkforwarder-6.6.2-4b804538c686-x64-release.msi"
+msiexec.exe /i c:\$programName AGREETOLICENSE=Yes SPLUNK_APP="SplunkForwarder" FORWARD_SERVER="<*DNS NAME/IP*:*PORT NUMBER*>" WINEVENTLOG_SYS_ENABLE=1  /quiet 
