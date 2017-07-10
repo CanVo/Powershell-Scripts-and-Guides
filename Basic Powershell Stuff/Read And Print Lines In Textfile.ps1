@@ -1,6 +1,5 @@
-# Here you would would put the directory of the text file you are wanting to read.
+# Below you would would put the directory of the text file you are wanting to read.
 $file = Get-Content "C:\Users\sample.txt"
-
 
 foreach ($line in $content){
     Write-Host $line
