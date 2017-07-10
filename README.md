@@ -5,8 +5,7 @@ A broad general collection of Windows power-shell stuff.
 
 ### Basic Powerhell Stuff
 Basic scripts and such that may be quite useful. Good reference to check up.
-
-
+_
 ### Red Teaming With Powershell
 A series of exploits and scripts for red teaming using powershell.
 
