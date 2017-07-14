@@ -1,5 +1,5 @@
 # Powershell-Scripts-and-Guides
-A broad general collection of Windows power-shell stuff made by me.
+A broad general collection of Windows powershell stuff made by me.
 
 # Folder Directories
 
